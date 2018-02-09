@@ -1,0 +1,6 @@
+< world > name # tagA # tagB 
+    property : 0
+    title-deed : "Values"
+    <~> whatever:
+        ! art -> spawn 
+                
