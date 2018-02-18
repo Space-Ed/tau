@@ -94,7 +94,10 @@ def lexer (input)
             else 
                 mode = :top
             end
-
+        when :literal
+            case char
+            when terminator
+                word << char
         else
             i+=1
             #ignore or raise
